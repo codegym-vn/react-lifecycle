@@ -1,4 +1,4 @@
-# [Thực hành] Render & JSX
+# [Thực hành] Lifecyle react 16
 ## Mục tiêu
  - Hiểu được khái niệm JSX
  - Biết cách dùng JSX trong React Component
