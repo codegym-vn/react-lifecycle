@@ -18,17 +18,17 @@
 
    ***Bước 1:*** Tạo component App (component Cha) với code như sau:
    
-   import React, { Component } from 'react';
-   import {
-     Platform,
-     StyleSheet,
-     Text,
-     View, Button,
-   } from 'react-native';
-   import Content from './src/Content';
-
-   type Props = {};
-   export default class App extends Component<Props> {
+    import React, { Component } from 'react';
+    import {
+      Platform,
+      StyleSheet,
+      Text,
+      View, Button,
+    } from 'react-native';
+    import Content from './src/Content';
+    type Props = {};
+    
+    export default class App extends Component<Props> {
 
      constructor(props) {
        super(props);
@@ -48,23 +48,23 @@
          </View>
        );
      }
-   }
+    }
 
 
    Nội dung component App bao gồm 1 button và 1 component content giống như đề bài
 
    ***Bước 2:*** Tạo component <Content /> với nội dung bên dưới:
    
-   import React, { Component } from 'react';
-   import {
-       Platform,
-       StyleSheet,
-       Text,
-       View, Button, Alert,
-   } from 'react-native';
+    import React, { Component } from 'react';
+    import {
+        Platform,
+        StyleSheet,
+        Text,
+        View, Button, Alert,
+    } from 'react-native';
 
-   type Props = {};
-   class Content extends Component<Props> {
+    type Props = {};
+    class Content extends Component<Props> {
 
        componentWillMount() {
            Alert.alert('componentWillMount');
@@ -92,9 +92,8 @@
                <View><Text>{this.props.myNumber}</Text></View>
            );
        }
-   }
-
-   export default Content
+    }
+    export default Content
 
    Nhiệm vụ của component này : nhận Props từ ngoài vào, chứa các hàm lifeCycle.
    
