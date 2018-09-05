@@ -1,9 +1,7 @@
 # [Thực hành] Lifecyle react 16.3
 ## Mục tiêu
- - Hiểu được khái niệm JSX
- - Biết cách dùng JSX trong React Component
- - Biết cách sử dụng các javascript expression trong JSX
  - Hiểu được các hàm vòng đời của một React Component và các methods để quản lý vòng đời này
+ - B
 
 ## Mô tả
  - Tạo 2 component : App (component cha) và Content (Component con)
