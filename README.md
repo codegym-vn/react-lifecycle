@@ -1,4 +1,4 @@
-# [Thực hành] Lifecyle react 16
+# [Thực hành] Lifecyle react 16.3
 ## Mục tiêu
  - Hiểu được khái niệm JSX
  - Biết cách dùng JSX trong React Component
@@ -87,6 +87,15 @@
        componentWillUnmount() {
            Alert.alert('componentWillUnmount')
        }
+        static getDerivedStateFromProps(props, state){
+        Alert.alert('getDerivedStateFromProps')
+       }
+       getSnapshotBeforeUpdate(prevProps, prevState){
+         Alert.alert('getSnapshotBeforeUpdate')
+       }
+       componentDidCatch(error, info){
+         Alert.alert('componentDidCatch')
+       }
        render() {
            return (
                <View><Text>{this.props.myNumber}</Text></View>
@@ -100,10 +109,7 @@
    ***Bước 3:*** Chạy App để quan sát giao diện, chú ý các Alert hiện lên màn hình lần đầu tiên
 
    ***Bước 4:*** Tiếp tục click vào nút Increment và quan sát kết quả alert thông báo ra
-
-   Lời giải cho 2 câu hỏi :
-   Khi chạy app lần đầu tiên : có 2 log thông báo đó là : componentWillMount và componentDidMount
-   Khi click vào nút INCREMENT quá trình update state xảy ra và các lifeCycle methods sau sẽ được thực hiện : componentWillReceiveProps, componentWillUpdate, componentDidUpdate
-
+   
+   **Chú ý**: các life cycle: componentWillMount, componentWillReceiveProps, componentWillUpdate sẽ được bỏ ở version react 17
    
 
