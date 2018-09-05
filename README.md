@@ -16,7 +16,7 @@
  
 ## Hướng dẫn
 
-   Bước 1: Tạo component App (component Cha) với code như sau
+   ***Bước 1:*** Tạo component App (component Cha) với code như sau
    import React, { Component } from 'react';
    import {
      Platform,
@@ -52,7 +52,7 @@
 
    Nội dung component App bao gồm 1 button và 1 component content giống như đề bài
 
-   Bước 2: Tạo component <Content /> với nội dung bên dưới
+   ***Bước 2:*** Tạo component <Content /> với nội dung bên dưới
    import React, { Component } from 'react';
    import {
        Platform,
@@ -95,9 +95,10 @@
    export default Content
 
    Nhiệm vụ của component này : nhận Props từ ngoài vào, chứa các hàm lifeCycle.
-   Bước 3: Chạy App để quan sát giao diện, chú ý các Alert hiện lên màn hình lần đầu tiên
+   
+   ***Bước 3:*** Chạy App để quan sát giao diện, chú ý các Alert hiện lên màn hình lần đầu tiên
 
-   Bước 4: Tiếp tục click vào nút Increment và quan sát kết quả alert thông báo ra
+   ***Bước 4:*** Tiếp tục click vào nút Increment và quan sát kết quả alert thông báo ra
 
    Lời giải cho 2 câu hỏi :
    Khi chạy app lần đầu tiên : có 2 log thông báo đó là : componentWillMount và componentDidMount
