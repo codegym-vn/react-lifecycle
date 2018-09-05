@@ -1,7 +1,7 @@
 # [Thực hành] Lifecyle react 16.3
 ## Mục tiêu
  - Hiểu được các hàm vòng đời của một React Component và các methods để quản lý vòng đời này
- - B
+ - Bổ sung 3 life cycle mới.
 
 ## Mô tả
  - Tạo 2 component : App (component cha) và Content (Component con)
