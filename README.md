@@ -105,5 +105,5 @@
    Khi chạy app lần đầu tiên : có 2 log thông báo đó là : componentWillMount và componentDidMount
    Khi click vào nút INCREMENT quá trình update state xảy ra và các lifeCycle methods sau sẽ được thực hiện : componentWillReceiveProps, componentWillUpdate, componentDidUpdate
 
-   Mã nguồn tham khảo: https://github.com/codegym-vn/react-jsx
+   
 
