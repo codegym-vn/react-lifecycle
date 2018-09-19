@@ -1,4 +1,6 @@
 # [Thực hành] Lifecyle react 16.3
+#
+Mã nguồn [Thực hành] Lifecyle react 16.3 được sử dụng để thực hành tại [CodeGym](https://codegym.vn)
 ## Mục tiêu
  - Hiểu được các hàm vòng đời của một React Component và các methods để quản lý vòng đời này
  - Bổ sung 3 life cycle mới.
